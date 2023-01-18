@@ -1,13 +1,17 @@
 ﻿// Найти максимальное число из трех 
-int a = 6;
-int b = 2;
-int c = 7;
+Console.WriteLine("Введите первое число ");
+int numberA = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе число ");
+int numberB = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите третье число ");
+int numberC = int.Parse(Console.ReadLine());
 
-int max = a;
 
-if ( a > max ) max = a;
-if ( b > max ) max = b;
-if ( c > max ) max = c;
+int max = numberA;
+
+if ( numberA > max ) max = numberA;
+if ( numberB > max ) max = numberB;
+if ( numberC > max ) max = numberC;
 
 Console.WriteLine("max = ");
 Console.WriteLine(max);
