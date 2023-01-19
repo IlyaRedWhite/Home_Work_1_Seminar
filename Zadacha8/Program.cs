@@ -5,4 +5,6 @@ while (res < num)
 {
     Console.Write(res + 1 +", ");
     res += 2;
+    
 }    
+    Console.Write("\b\b    ");
